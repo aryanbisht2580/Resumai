@@ -13,7 +13,7 @@ app.use(cookieParser());
 
 
 const corsOptions = {
-    origin: "https://resumai-ijrc.onrender.com",
+    origin: ["https://resumai-ijrc.onrender.com","http://localhost:5173"],
     credentials: true
 };
 
