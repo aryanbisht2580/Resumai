@@ -18,7 +18,7 @@ const corsOptions = {
 };
 
 app.use(cors(corsOptions));
-
+app.get("/", (req, res) => res.send("hello"))
 app.use("/api/users", userRouter);
 app.use("/api/resumes", resumeRouter);
 
