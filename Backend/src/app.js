@@ -13,7 +13,7 @@ app.use(cookieParser());
 
 
 const corsOptions = {
-    origin: [process.env.ALLOWED_SITE],
+    origin: "https://resumai-ijrc.onrender.com",
     credentials: true
 };
 
